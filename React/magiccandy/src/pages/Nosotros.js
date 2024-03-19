@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import '../assets/styles/Nosotros.css'
+import Niña from '../assets/img/niña.jpg'
 
 function Nosotros() {
   return (
@@ -24,7 +26,7 @@ function Nosotros() {
                     estándares de producción.</p>
 
                 <div className="us-img">
-                    <img src="../SRC/ASSETS/IMG/niña.jpg" width="450px" height="300px" alt="Niña en la dulcería" />
+                    <img src={Niña} width="450px" height="300px" alt="Niña en la dulcería" />
                 </div>
             </div>
 

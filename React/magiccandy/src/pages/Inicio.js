@@ -19,6 +19,7 @@ function Inicio() {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossOrigin="anonymous"
         />
+        
       {/* ESTE ES EL MENU BLANCO CON CADA UNA DE LAS PAGINAS */}
       <Header />
         {/* AQUI VA LA IMAGEN PRINCIPAL DE LA WEB--BANNER */}
