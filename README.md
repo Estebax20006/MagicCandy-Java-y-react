@@ -71,6 +71,6 @@ Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archiv
 Para cualquier consulta o sugerencia sobre MagiCandy, no dudes en ponerte en contacto con nosotros:
 
 - Sergio Quiroga: sergio.quiroga
-- Niyiret Morera: niyiret.morera@quiromar.com
+- Niyiret Morera: niyiret.morera
 - Esteban Arciniegas: esteban.arciniegas
 
