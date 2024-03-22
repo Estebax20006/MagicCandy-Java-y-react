@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Banner from '../assets/img/Banner.jpg'
-import Fruticas from '../assets/img/Fruticas.jpg'
-import DulceTrigo from '../assets/img/producto 6.jpg'
-import Panditas from '../assets/img/producto 3.jpg'
+import Banner from '../assets/img/Banner.webp'
+import Fruticas from '../assets/img/fruticas.webp'
+import CandyMix from '../assets/img/candyMix.webp'
+import Moritas from '../assets/img/moritas.webp'
 import Instagram from '../assets/img/instagram.svg'
 import Whatsapp from '../assets/img/whatsapp.svg'
 import Facebook from '../assets/img/facebook.svg'
@@ -32,8 +32,8 @@ function Inicio() {
         {/* AQUI VAN LAS TRES (3) PRIMERAS IMAGENES DE LOS PRODUCTOS */}
         <div className="container-products">
           <img src={Fruticas} alt="Frutitas" />
-          <img src={DulceTrigo} alt="Dulce Trigo" />
-          <img src={Panditas} alt="Panditas" />
+          <img src={CandyMix} alt="Candy Mix" />
+          <img src={Moritas} alt="Panditas" />
         </div><br />
         {/* BOTON DE VER MAS EN LA PAG. PRINCIPAL */}
         <button className="btn-see-more" role="boton"><a href="Productos.html">Ver más ➜ </a></button>

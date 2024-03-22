@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../assets/styles/Nosotros.css'
-import Niña from '../assets/img/niña.jpg'
+import Niña from '../assets/img/Nosotros.webp'
 
 function Nosotros() {
   return (
