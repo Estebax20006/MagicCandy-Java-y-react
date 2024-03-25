@@ -21,6 +21,6 @@ public class Role {
    @Column(name = "nombre")
    private String name;
 
-   @OneToMany(targetEntity = User.class, fetch = FetchType.LAZY, mappedBy = "role")
+   @OneToMany(targetEntity = User.class, fetch = FetchType.LAZY, mappedBy = "role", cascade = {CascadeType.PERSIST})
    private List<User> userList;
 }

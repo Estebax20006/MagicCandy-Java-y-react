@@ -1,5 +1,6 @@
 package com.MagicCandy.AppQuiromar.dtos;
 
+import com.MagicCandy.AppQuiromar.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,5 +16,6 @@ public class RoleDto {
 
     private String name;
 
+    private List<User> userList;
 
 }

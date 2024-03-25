@@ -39,7 +39,7 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @ManyToOne(targetEntity = Role.class)
+    @ManyToOne(targetEntity = Role.class, cascade = {CascadeType.PERSIST})
     @JoinColumn(name = "fk_roles_id")
     private Role role;
 

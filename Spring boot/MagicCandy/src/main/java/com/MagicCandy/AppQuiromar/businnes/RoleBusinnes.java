@@ -14,21 +14,23 @@ public class RoleBusinnes {
     @Autowired
     private RoleService roleService;
     private List<Role> roleList;
-    private List<RoleDto> roleDtoList = new ArrayList<>();
+
 
     public List<RoleDto> findAll(){
+        List<RoleDto> roleDtoList = new ArrayList<>();
         try {
             this.roleList = this.roleService.findAll();
             this.roleList.forEach(role -> {
                 RoleDto roleDto = new RoleDto();
                 roleDto.setId(role.getId());
                 roleDto.setName(role.getName());
-                this.roleDtoList.add(roleDto);
+                roleDtoList.add(roleDto);
             });
         } catch (Exception e){
+
             System.out.println(e.getMessage());
         }
-        return this.roleDtoList;
+        return roleDtoList;
     }
 
     public String createRole(RoleDto roleDto){
